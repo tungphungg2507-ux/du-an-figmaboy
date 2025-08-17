@@ -529,9 +529,10 @@ header {
 .features .body {
   display: flex;
   height: 438px;
-  box-shadow: 6px 6px 7px #ebeaff;
+  justify-content: space-between;
+  box-shadow: 6px 10px 7px #ebeaff;
+  border-radius: 20px;
 }
-
 
 .features .images {
   display: flex;
@@ -544,13 +545,14 @@ header {
   border-radius: 16px;
 }
 
-.features .lower{
+.features .lower {
   margin-top: 34px;
 }
 
 .features .content {
   width: 41%;
   margin-left: 130px;
+  margin-top: 58px;
 }
 
 .features .desc {
@@ -563,12 +565,36 @@ header {
   line-height: 28px;
 }
 
-.features .btn-features{
+.features .cta-group {
   margin-top: 32px;
   min-width: 137px;
-
+  border-radius: 26px;
 }
 
-.features .btn-features:hover{
+.features .cta-group:hover {
   background-color: var(--pri-color);
+}
+
+/* ==================================== features 2 ================================================================ */
+.features-2nd .body {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.features-2nd{
+  margin-top: 70px;
+}
+
+.features-2nd .images .pictr {
+  width: 470px;
+  height: 440px;
+  border-radius: 20px;
+}
+.features-2nd .content {
+  margin-left: 0;
+}
+
+.features-2nd .content{
+  width: 49%;
 }
