@@ -16,7 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* common */
+/*============================================= common ======================================*/
 
 .btn {
   display: inline-block;
@@ -31,18 +31,18 @@ body {
   background: #171100;
 }
 
-.break-all{
+.break-all {
   word-break: break-all;
 }
 
-.line-clamp{
+.line-clamp {
   display: -webkit-box;
   -webkit-line-clamp: var(--line-clamp, 1);
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.line-clamp.line-2{
+.line-clamp.line-2 {
   --line-clamp: 2;
 }
 
@@ -138,7 +138,7 @@ header {
 .action {
   margin-left: 49px;
 }
-/* ===============hero============== */
+/* ======================================hero==================================================== */
 .hero {
   padding: 56px 0 65px;
   background: #fffcf4;
@@ -301,7 +301,7 @@ header {
   margin-top: 8px;
 }
 
-/* ========= popular=========== */
+/* =========================================== popular====================================== */
 
 .popular {
   padding: 65px 0;
@@ -346,7 +346,7 @@ header {
   cursor: pointer;
 }
 
-/* =========popular-bottom======== */
+/* ============================================popular-bottom================================ */
 .popular .popular-bottom {
   display: flex;
 }
@@ -437,4 +437,138 @@ header {
   gap: 6px;
 }
 
+/* =========================== feed back ==================================================== */
 
+.feedback {
+  margin-top: 135px;
+  background: #2e2100;
+  padding: 96px 0;
+}
+
+.feedback-list {
+  display: flex;
+  overflow: hidden;
+}
+
+.feedback .body {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.feedback .member .ava {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback .member .title {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-sen);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42; /* 141.667% */
+}
+
+.feedback .member .desc {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+
+.feedback .dots {
+  display: flex;
+}
+
+.feedback .dot + .dot {
+  margin-left: 6px;
+}
+
+.feedback .dot.active {
+  background-color: #ffb900;
+}
+
+.feedback .member .dot {
+  margin-top: 28px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+}
+
+.feedback .member .dot:hover {
+  background-color: #ffb900;
+  cursor: pointer;
+}
+
+.feedback .feel img {
+  margin-left: 241px;
+  width: 30px;
+  height: 28px;
+  fill: #634700;
+}
+
+.feedback .feel .desc {
+  margin-left: 271px;
+  width: 740px;
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1.54; /* 153.846% */
+}
+
+/* =========================================== features ====================================================================*/
+.features {
+  margin-top: 135px;
+  padding: 65px;
+}
+
+.features .body {
+  display: flex;
+  height: 438px;
+  box-shadow: 6px 6px 7px #ebeaff;
+}
+
+
+.features .images {
+  display: flex;
+  gap: 30px;
+}
+
+.features .pictr {
+  width: 270px;
+  height: 404px;
+  border-radius: 16px;
+}
+
+.features .lower{
+  margin-top: 34px;
+}
+
+.features .content {
+  width: 41%;
+  margin-left: 130px;
+}
+
+.features .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.features .btn-features{
+  margin-top: 32px;
+  min-width: 137px;
+
+}
+
+.features .btn-features:hover{
+  background-color: var(--pri-color);
+}
