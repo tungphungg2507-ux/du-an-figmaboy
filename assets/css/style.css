@@ -351,7 +351,7 @@ header {
   display: flex;
 }
 
-.popular .blog {
+.popular .blog0 {
   flex: 1;
   border-radius: 12px;
   border: 1px solid #e2dfda;
@@ -360,7 +360,7 @@ header {
   height: 466px;
 }
 
-.popular .blog:hover {
+.popular .blog0:hover {
   width: 370px;
   height: 466px;
   border: 1px solid transparent;
@@ -373,7 +373,7 @@ header {
   margin-top: 55px;
 }
 
-.popular-bottom .blog img {
+.popular-bottom .blog0 img {
   width: 100%;
   object-fit: cover;
   height: 278px;
@@ -391,17 +391,17 @@ header {
   line-height: 1.75; /* 175% */
 }
 
-.popular-bottom .blog .evaluate {
+.popular-bottom .blog0 .evaluate {
   display: flex;
   justify-content: space-between;
   margin: 16px 22px 0;
 }
 
-.blog .evaluate .juge {
+.blog0 .evaluate .juge {
   display: flex;
 }
 
-.popular .blog + .blog {
+.popular .blog0 + .blog0 {
   margin-left: 30px;
 }
 
@@ -700,7 +700,7 @@ header {
   background-color: var(--pri-color);
 }
 
-.blog .dots {
+.blog .dots-list {
   display: flex;
   gap: 6px;
   justify-content: center;
