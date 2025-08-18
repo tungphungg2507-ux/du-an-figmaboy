@@ -693,8 +693,128 @@ header {
 
 .blog .info .btn-blog {
   margin-top: 12px;
+  font-size: 1.4rem;
 }
 
 .blog .info .btn-blog:hover {
   background-color: var(--pri-color);
+}
+
+.blog .dots {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 38px;
+}
+
+.blog .dot-list {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #5f5b53;
+  cursor: pointer;
+}
+
+.blog .dot-list:active {
+  background-color: var(--pri-color);
+  cursor: default;
+}
+
+/* ===================== footer =============================== */
+.footer {
+  margin-top: 96px;
+  background-color: #2e2100;
+}
+
+.footer .footer-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+
+.footer .item {
+  margin-top: 96px;
+  width: 21.67%;
+}
+
+.footer .item:first-child {
+  width: 35%;
+}
+
+.footer .item1 .desc {
+  margin: 18px 0;
+  width: 267px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+
+.footer .item .logo-social {
+  color: #fff;
+}
+
+.footer .item .logo-social + .logo-social {
+  margin-left: 10px;
+}
+
+.footer .item2 {
+  margin-left: 145px;
+}
+
+.footer .item .title {
+  color: #fff;
+  font-size: 1.6rem;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+  padding-bottom: 14px;
+  padding-right: 48px;
+  border-bottom: 1px solid #59554b;
+}
+
+/* .footer .item .title::after {
+  content: "";
+  display: inline-block;
+  width: 130px;
+  height: 1px;
+  background-color: #59554b;
+  margin-top: 14px;
+} */
+
+.footer .help {
+  display: block;
+}
+
+.footer .item a.help:first-of-type {
+  padding-top: 16px;
+  /* color: orange; */
+}
+
+.footer .item a.help {
+  margin-top: 12px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+
+.footer .item3 {
+  margin-left: 130px;
+}
+
+.footer .item3 .location {
+  width: 231px;
+  display: inline-block;
+}
+
+.footer .item4 {
+  margin-left: 137px;
+}
+
+.footer .copyright {
+  color: #807d74;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+  padding: 28px 0;
 }
