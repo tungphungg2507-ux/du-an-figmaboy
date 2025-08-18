@@ -817,4 +817,5 @@ header {
   font-size: 1.4rem;
   line-height: 1.86; /* 185.714% */
   padding: 28px 0;
+  /* margin: 28px auto; */
 }
